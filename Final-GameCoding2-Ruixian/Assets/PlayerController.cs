@@ -26,7 +26,8 @@ public class PlayerController : MonoBehaviour
 
 
     [Header("Crouch")]
-    public float crouchScale = 0.66f;          
+    public float crouchScale = 0.66f;
+    public bool isCrouching { get; private set; }
 
 
     [Header("Jump Buffer")]
@@ -55,6 +56,12 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
+
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            isCrouching = !isCrouching;
+        }
+
         HandleLook();       
         HandleMovement();   
         HandleJump();       
@@ -81,7 +88,7 @@ public class PlayerController : MonoBehaviour
         float z = Input.GetAxis("Vertical");
         Vector3 move = transform.right * x + transform.forward * z;
 
-        bool isCrouching = Input.GetKey(KeyCode.C);
+
         bool wantsToRun = Input.GetKey(KeyCode.LeftShift);
         bool isMoving = move.magnitude > 0.1f;
 
