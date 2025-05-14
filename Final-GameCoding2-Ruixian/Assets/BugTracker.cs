@@ -33,7 +33,6 @@ public class BugTracker : MonoBehaviour
             bugCounts["Butterfly"] = 0;
             bugCounts["Grasshopper"] = 0;
             bugCounts["Ant"] = 0;
-            bugCounts["Worm"] = 0;
             bugCounts["Dragonfly"] = 0;
             bugCounts["Firefly"] = 0;
         }

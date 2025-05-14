@@ -11,22 +11,22 @@ public class Dialogue : MonoBehaviour
     public float typingSpeed = 0.05f;
     public string[] lines = {
         "You love catching bugs!",
-        "Today, while your mom is out, you¡¯ve snuck out on your own for another bug-hunting adventure.",
-        "I wonder what kind of bugs you¡¯ll find this time!",
+        "Today, while your mom is out, you've snuck out on your own for another bug-hunting adventure.",
+        "I wonder what kind of bugs you'll find this time!",
 
         "Use WASD to move around.",
         "Hold Shift to run.",
         "Press C to toggle between walking and crouching.",
-        "And press E to interact with anything you can¡ªlike catching bugs!",
+        "And press E to interact with anything you can, like catching bugs!",
 
         "Ants hide under rocks.",
         "Butterflies will fly away if you don¡¯t crouch and sneak up on them.",
-        "Grasshoppers hides in the bushes and they run fast...you¡¯ll have to chase them down!",
-        "There are all kinds of bugs waiting to be discovered, but you¡¯ll need some skill.",
-        "It won¡¯t be easy!",
+        "Grasshoppers hides in the bushes and they run fast...you'll have to chase them down!",
+        "There are all kinds of bugs waiting to be discovered, but you'll need some skill.",
+        "It won't be easy!",
         
-        "Press Tab to open your bug list and see how many you¡¯ve caught so far.",
-        "Now then¡­ go explore, and happy bug hunting!"
+        "Press Tab to open your bug list and see how many you've caught so far.",
+        "Now then­ go explore, and happy bug hunting!"
     };
 
 

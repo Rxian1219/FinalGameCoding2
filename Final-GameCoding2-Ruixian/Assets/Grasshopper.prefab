@@ -74,7 +74,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 5958f20242c460649ac8e7e2e010eead, type: 2}
     - target: {fileID: 919132149155446097, guid: 026efc06762e53c448398373b70529a2, type: 3}
       propertyPath: m_Name
-      value: Grasshopperrr
+      value: Grasshopper
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 026efc06762e53c448398373b70529a2, type: 3}
       propertyPath: m_Layer
@@ -140,7 +140,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cef69f375ae5c1848990423a3a98b96c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bugName: GrassHopper
+  bugName: Grasshopper
 --- !u!114 &-1999096407310222289
 MonoBehaviour:
   m_ObjectHideFlags: 0
